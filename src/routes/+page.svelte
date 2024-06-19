@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
+    import "$lib/monaco/index";
     import * as monaco from "monaco-editor";
 
     let container: HTMLDivElement;
